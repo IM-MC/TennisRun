@@ -31,7 +31,7 @@ public class GameRenderer {
     this.midPointY = midPointY;
 
     cam = new OrthographicCamera();
-    cam.setToOrtho(true,407,gameHeight);
+    cam.setToOrtho(true,407,272);
 
     sb = new SpriteBatch();
     sb.setProjectionMatrix(cam.combined);
